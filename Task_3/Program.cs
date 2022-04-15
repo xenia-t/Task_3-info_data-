@@ -12,7 +12,6 @@ int[] data = {0, 1, 1, 1, 1, 0, 0, 0, 1 };
 int[] info = {2, 3, 3, 1 };
 int[] newData = new int[info.Length];
 Breakdown(newData);
-int[] info10 = new int[info.Length];
 PrintConversion(Conversion(4));
 
 void Breakdown(int[] newData)
